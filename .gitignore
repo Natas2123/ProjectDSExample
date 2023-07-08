@@ -1,0 +1,12 @@
+# .gitignore
+.venv/
+.env
+venv/
+./venv
+__pycache__
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.DS_Store
+.vscode/
+```

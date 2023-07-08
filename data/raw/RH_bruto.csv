@@ -1,0 +1,11 @@
+ID_Empleado,Apellido,Nombre,Genero,Años_En_Empresa,Rol_Trabajo,Ingreso_Mensual,Evaluacion_Desempeño,Nivel_Satisfaccion,Desercion
+1001,Perez,Juan,M,5,Ingeniero_Software,5000,3,0.6,Si
+1002,Rodriguez,María,F,,Científico_Datos,6500,4,0.9,No
+1003,Gonzalez,,F,2,Analista_Datos,4000,3,0.8,No
+,Williams,David,M,1,Ingeniero_Software,5200,2,0.7,Si
+1005,Martinez,Ana,F,4,Gerente,,4,0.9,No
+1006,Hernández,Carlos,M,2,Ingeniero_Software,4800,,0.6,Si
+1007,Lopez,Luis,M,3,Analista_Datos,4500,2,0.7,No
+1008,Torres,Laura,F,5,,8000,3,0.9,No
+1009,Ramos,Jose,M,2,Científico_Datos,6500,3,0.8,
+1010,Morales,Angela,F,1,Ingeniero_Software,5200,2,0.7,No
