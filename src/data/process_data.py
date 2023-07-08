@@ -7,7 +7,7 @@ input_filepath = "./data/raw/RH_bruto.csv"
 # Ruta donde se guardará el archivo de datos procesados
 output_filepath = "./data/processed/RH_procesado.csv"
 
-# Leer los datos brutos
+# Leer los datos brutos.
 
 reader = dtl.DataLoader(input_filepath)
 df = reader.load_data()
