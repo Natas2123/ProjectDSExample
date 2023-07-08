@@ -6,4 +6,5 @@ class DataLoader:
         self.path = path
 
     def load_data(self):
-        return pd.read_csv(self.path)
+        data = pd.read_csv(self.path)
+        return data
