@@ -8,6 +8,3 @@ class DataLoader:
     def load_data(self):
         data = pd.read_csv(self.path)
         return data
-
-
-# Comentario
