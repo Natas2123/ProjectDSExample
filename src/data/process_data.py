@@ -1,4 +1,5 @@
 import pandas as pd
+import helper.DataLoader as dtl
 
 # Ruta del archivo de datos en bruto
 input_filepath = "./data/raw/RH_bruto.csv"
@@ -7,7 +8,9 @@ input_filepath = "./data/raw/RH_bruto.csv"
 output_filepath = "./data/processed/RH_procesado.csv"
 
 # Leer los datos brutos
-df = pd.read_csv(input_filepath)
+
+reader = dtl.DataLoader(input_filepath)
+df = reader.load_data()
 
 # Rellenar los valores faltantes
 # Para 'Años_En_Empresa', 'Ingreso_Mensual', 'Evaluacion_Desempeño', y 'Nivel_Satisfaccion'

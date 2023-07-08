@@ -3,9 +3,11 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import preprocessing
+import helper.DataLoader as dtl
 
 # Leer los datos
-df = pd.read_csv("./data/processed/RH_procesado.csv")
+reader = dtl.DataLoader("./data/processed/RH_procesado.csv")
+df = reader.load_data()
 
 # Convertir columnas no numéricas a numéricas
 for column in df.columns:
